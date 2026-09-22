@@ -1,0 +1,9 @@
+Package: com.reveal.esp
+Name: Reveal
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Description: Minimal skeleton ESP overlay for UE4 games, built on Metal + Dear ImGui.
+Author: Reveal
+Maintainer: Reveal
+Section: Tweaks
+Depends: mobilesubstrate
