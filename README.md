@@ -37,9 +37,9 @@ Four small pieces:
 
 | piece | what it does |
 |-------|--------------|
-| [`src/Game/Memory`](src/Game/Memory) | reads the game through `vm_read_overwrite` — read-only and fault-tolerant; a bad pointer gives a failed read instead of a crash |
-| [`src/Game/World`](src/Game/World) | walks the engine: `GWorld` to the level to the actor list, the local camera, and each character's bone pose straight out of the skeletal mesh |
-| [`src/Render/Skeleton`](src/Render/Skeleton) | connects the bones into a figure and projects each joint to the screen |
+| [`src/Game/Memory`](src/Game) | reads the game through `vm_read_overwrite` — read-only and fault-tolerant; a bad pointer gives a failed read instead of a crash |
+| [`src/Game/World`](src/Game) | walks the engine: `GWorld` to the level to the actor list, the local camera, and each character's bone pose straight out of the skeletal mesh |
+| [`src/Render/Skeleton`](src/Render) | connects the bones into a figure and projects each joint to the screen |
 | [`src/Overlay`](src/Overlay) | the Metal/ImGui host plus the loader that brings it up and wires the show/hide gestures |
 
 ---
