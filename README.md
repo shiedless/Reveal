@@ -87,4 +87,10 @@ MIT.
 
 ---
 
+<p align="center">
+  <sub>the notes behind this: <a href="https://github.com/shiedless/ios-ue4-re">ios-ue4-re</a> — seven write-ups on UE4 reversing on iOS, in reading order</sub>
+</p>
+
+---
+
 <p align="center">— shiedless</p>
